@@ -1,0 +1,116 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "preview": {
+            "assets": {
+              "mobileRectangle": {
+                "images": [
+                  {
+                    "source": {
+                      "location": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b289/867ebc067f3749b0a3efd6ca5568e081/APP_PREVIEW_IMAGE?versionId\u003dgq4X7cBWC7ifZBLTjizD.upKtjXO.6Fr\u0026X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Date\u003d20230721T014853Z\u0026X-Amz-SignedHeaders\u003dhost\u0026X-Amz-Expires\u003d7200\u0026X-Amz-Credential\u003dAKIAWBV6LQ4QMIVWGVVP%2F20230721%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Signature\u003d9be3f28c005318a8eb3092032fe34efe358929743c1678010b9ea7d7e35be7e6",
+                      "type": "URI"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "summary": "Skill da sua ABC Radio",
+          "examplePhrases": [
+            "Alexa, iniciar ABC Radio",
+            "Alexa, abrir ABC Radio",
+            "Alexa tocar ABC Radio"
+          ],
+          "keywords": [
+            "abc",
+            "radio",
+            "rádio",
+            "abc",
+            "anos",
+            "80",
+            "abc",
+            "by",
+            "william",
+            "leal",
+            "flashback",
+            "anos",
+            "90",
+            "anos",
+            "70"
+          ],
+          "name": "ABC Radio",
+          "description": "Bem-vindo ao ABC Radio - onde a magia dos anos 80 ganha vida! \n\nSe você é um amante de música que anseia pela nostalgia dessa década icônica, você encontrou seu destino musical perfeito!\n\nReviva os Anos 80:\n\nEmbarque em uma viagem no tempo enquanto trazemos de volta os hits que embalaram os anos 80. De baladas emocionantes a batidas dançantes, nossa programação cuidadosamente selecionada vai te transportar para uma época de neon brilhante, cabelos volumosos e ícones lendários da música.\n\nA Essência dos Anos 80:\n\nNa ABC Radio, dedicamos toda a nossa energia para capturar a essência única dos anos 80. Nossa equipe de especialistas é apaixonada por essa década e traz para você uma mistura envolvente de músicas que definiram toda uma geração.\n\nGrandes Artistas, Grandes Sucessos:\n\nDe Michael Jackson a Madonna, de Prince a Queen, nossa playlist apresenta os maiores artistas e suas obras-primas dos anos 80. Sintonize-se para reviver os momentos musicais que resistiram ao teste do tempo.\n\nFique Atualizado:\n\nMantenha-se informado sobre eventos, lançamentos e notícias relacionadas aos artistas dos anos 80. Nossa rádio mantém você atualizado sobre tudo o que acontece no mundo da música retrô.\n\nAcesse Facilmente:\n\nSintonize-se na ABC Radio em diversas plataformas - disponível em nosso site intuitivo e também em aplicativos móveis. Leve a música dos anos 80 com você onde quer que vá e mergulhe na nostálgica trilha sonora daquela década inesquecível.\n\nCompartilhe a Experiência:\n\nConvide seus amigos e familiares para se juntarem a nós nessa jornada musical pelos anos 80. Compartilhe momentos emocionantes e dance ao som das músicas que marcaram uma era.\n\nSintonize-se agora mesmo na ABC Radio e redescubra a época de ouro da música. Prepare-se para uma experiência auditiva que fará você sorrir, dançar e cantar junto. \n\nABC Radio - Flashback Anos 80 espera por você!",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "updatesDescription": "Atualização de layout;\nPlaylists atualizadas;",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "pt-BR",
+            "language": "pt"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"williamlealtamburi@gmail.com\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Atualizações musicais.\"}",
+      "category": "RADIO",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:324574203018:function:2be7f377-b90d-45a2-8b8d-e84e4bfc975e:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:324574203018:function:2be7f377-b90d-45a2-8b8d-e84e4bfc975e:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:324574203018:function:2be7f377-b90d-45a2-8b8d-e84e4bfc975e:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:324574203018:function:2be7f377-b90d-45a2-8b8d-e84e4bfc975e:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {
+          "termsOfUseUrl": "https://docs.google.com/document/d/1qGYb_bLMwFSv6Bd8lH4VSX88FpAXsqjZW3omyg1VozM/edit?usp\u003dsharing",
+          "privacyPolicyUrl": "https://docs.google.com/document/d/1gB3WgNW535IxuTGkSQPYGyzNqKVbvNVV3A_KdFLiMeU/edit?usp\u003dsharing"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
